@@ -187,7 +187,6 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   //recipe Upload
   addRecipeView.addHnadlerUpload(controlAddRecipe);
-  console.log("I am Moazam ");
 };
 init();
 
