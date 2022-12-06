@@ -7,7 +7,7 @@ import icons from 'url:../../img/icons.svg'; // parcel 2   // 2level up to that 
 // any library from npm don;t need to give path
 // to convert decimal to fraction
 import { Fraction } from 'fractional'; // destruction as in Fraction.Fraction object
-console.log(Fraction);
+// console.log(Fraction);
 
 //////for view
 export class RecipeView extends View {

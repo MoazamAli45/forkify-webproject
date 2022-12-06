@@ -187,7 +187,8 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   //recipe Upload
   addRecipeView.addHnadlerUpload(controlAddRecipe);
-  console.log('Welcome to application');
+  console.log("Welcome to application")
+
 };
 init();
 
