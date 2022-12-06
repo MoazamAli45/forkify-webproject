@@ -2,9 +2,9 @@ import * as model from './model.js';
 // import recipeView from './views/recipeview.js'; // can give any name as we are importing object
 
 // polifyling evrything else
-import 'core-js/stable';
+// import 'core-js/stable';
 // polifilling async await
-import 'regenerator-runtime/runtime';
+// import 'regenerator-runtime/runtime';
 import recipeview from './recipeview.js';
 import searchView from './searchView.js';
 import resultsView from './resultsView.js';
@@ -187,8 +187,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   //recipe Upload
   addRecipeView.addHnadlerUpload(controlAddRecipe);
-  console.log("Welcome to application")
-
+  console.log('Welcome to application');
 };
 init();
 
