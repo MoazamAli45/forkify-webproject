@@ -4,14 +4,14 @@ export default class View {
   _data;
   // public
   ////////////JS Documentation
-/**
- * Render received Data to DOM 
- * @param {Object | Object[]} data  The data to be rendered(eg recipe) 
- * @returns   {undefined | string}
- * @this {object}  View instance 
- *@ Syed Moazam Ali
- *@todo Finsih Implemnetation
-*/
+  /**
+   * Render received Data to DOM
+   * @param {Object | Object[]} data  The data to be rendered(eg recipe)
+   * @returns   {undefined | string}
+   * @this {object}  View instance
+   *@ Syed Moazam Ali
+   *@todo Finsih Implemnetation
+   */
 
   render(data) {
     // check data exist
@@ -105,6 +105,6 @@ export default class View {
     <p>${message}</p>
   </div> `;
     this._clear();
-    this._parentElement.insertAdjacentHTML('afterbegin', markup);
+    // this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 }
