@@ -187,8 +187,10 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   //recipe Upload
   addRecipeView.addHnadlerUpload(controlAddRecipe);
+
 };
 init();
+console.log("Welcome to Application");
 
 const clearBookmarks = function () {
   localStorage.clear('bookmarks');
